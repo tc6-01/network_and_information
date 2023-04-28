@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="OnFBUa8Khot8sXU7OdUL" name="Page-1">
-        <mxGraphModel dx="1411" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+        <mxGraphModel dx="705" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -51,64 +51,64 @@
                 <mxCell id="16" value="基于朴素贝叶斯的垃圾邮件过滤" style="whiteSpace=wrap;html=1;verticalAlign=bottom;fontSize=24;" parent="1" vertex="1">
                     <mxGeometry x="1120" y="1530" width="990" height="730" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=none;html=1;entryX=-0.001;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="18">
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;entryX=-0.001;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="17" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="读取数据&lt;br&gt;&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(38, 35, 53); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #fe4450;&quot;&gt;pd&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;read_csv&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="1140" y="1600" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="数据预处理" style="whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="18" value="数据预处理" style="whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="1320" y="1550" width="530" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="22">
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="20" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="数据标注（垃圾与非垃圾）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="20" value="数据标注（垃圾与非垃圾）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1377.5" y="1590" width="190" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="24">
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="词向量化--转换为词频矩阵" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="21" value="词向量化--转换为词频矩阵" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1610" y="1610" width="210" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(38, 35, 53); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;sms_df&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;'class'&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;].&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;apply&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;lambda&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #f97e72;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;==&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;'spam'&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;else&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #f97e72;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" value="&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(38, 35, 53); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;sms_df&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;'class'&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;].&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;apply&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;lambda&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #f97e72;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;==&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;'spam'&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;else&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #f97e72;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1330" y="1710" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="24" target="28">
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="24" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(38, 35, 53); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;vectorizer&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;fit_transform&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;sms_df&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;'text'&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;].&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;apply&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;lambda&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;' '&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;join&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;)))&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="24" value="&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(38, 35, 53); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;vectorizer&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;fit_transform&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;sms_df&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;'text'&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;].&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;apply&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #fede5d;&quot;&gt;lambda&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ff8b39;&quot;&gt;' '&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #36f9f6;&quot;&gt;join&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;font-style: italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot;color: #ff7edb;&quot;&gt;)))&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1380" y="1810" width="430" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="将列表中的所有词合并为一个字符串" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;labelBackgroundColor=none;fontColor=#FFFFFF;rotation=0;" vertex="1" parent="1">
+                <mxCell id="27" value="将列表中的所有词合并为一个字符串" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;labelBackgroundColor=none;fontColor=#FFFFFF;rotation=0;" parent="1" vertex="1">
                     <mxGeometry x="1680" y="1730" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="28" target="30">
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="28" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="分词" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="28" value="分词" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1440" y="1890" width="65" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="30" target="32">
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="30" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="建立文本词汇表" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="30" value="建立文本词汇表" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1575" y="1890" width="65" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="计算出现次数，生成向量表示" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="32" value="计算出现次数，生成向量表示" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1700" y="1890" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="36" target="44">
+                <mxCell id="45" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="36" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="朴素贝叶斯分类器（学习&amp;amp;训练）" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="36" value="朴素贝叶斯分类器（学习&amp;amp;训练）" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="1240" y="2000" width="690" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=none;html=1;fontColor=#FFFFFF;exitX=1.003;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="18" target="37">
+                <mxCell id="39" style="edgeStyle=none;html=1;fontColor=#FFFFFF;exitX=1.003;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="18" target="37" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="37" target="36">
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="37" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2070" y="1660"/>
@@ -116,31 +116,70 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="训练集" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="37" value="训练集" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1890" y="1630" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" style="edgeStyle=none;html=1;fontColor=#FFFFFF;entryX=0.942;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="38" target="36">
+                <mxCell id="43" style="edgeStyle=none;html=1;fontColor=#FFFFFF;entryX=0.942;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="38" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" style="edgeStyle=none;html=1;entryX=0.833;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" edge="1" parent="1" source="38" target="48">
+                <mxCell id="46" style="edgeStyle=none;html=1;entryX=0.833;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" parent="1" source="38" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="测试集" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="38" value="测试集" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1900" y="1810" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" style="edgeStyle=none;html=1;fontColor=#FFFFFF;exitX=1.001;exitY=0.718;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="38">
+                <mxCell id="41" style="edgeStyle=none;html=1;fontColor=#FFFFFF;exitX=1.001;exitY=0.718;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="18" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="44">
+                <mxCell id="47" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="44" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1860" y="2140" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="44" value="预测结果" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="44" value="预测结果" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1530" y="2110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="准确度和误差" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="48" value="准确度和误差" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1860" y="2110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2180" y="2170" width="620" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="50" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="correct" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2650" y="2200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="51" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="vim" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2420" y="2200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="root&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2200" y="2200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=none;html=1;" edge="1" source="58" target="59" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="vim" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2430" y="2330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="root" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2210" y="2330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="origin/master" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="2560" y="2345" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="origin/master" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="2690" y="2270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="远程仓库" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="2460" y="2270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="本地仓库" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="2450" y="2410" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
