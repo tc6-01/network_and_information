@@ -1,0 +1,27 @@
+文件名：SMSSpamCollection
+
+数据来源：http://archive.ics.uci.edu/ml/machine-learning-databases/00228/
+
+数据内容：英文邮件（短信）
+
+用途：垃圾邮件分类
+
+数据格式：共5574条邮件，其中4,827(86.6%)条为正常邮件（ham），747(13.4%)为垃圾邮件（spam）。每行是一条邮件，其中第一个单词（ham或spam）表示该行邮件是正常邮件还是垃圾邮件，之后的字符串为邮件内容。
+
+正常邮件举例：
+ham   What you doing?how are you?
+ham   Ok lar... Joking wif u oni...
+ham   dun say so early hor... U c already then say...
+ham   MY NO. IN LUTON 0125698789 RING ME IF UR AROUND! H*
+ham   Siva is in hostel aha:-.
+ham   Cos i was out shopping wif darren jus now n i called him 2 ask wat present he wan lor. Then he started guessing who i was wif n he finally guessed darren lor.
+
+
+垃圾邮件举例：
+spam   FreeMsg: Txt: CALL to No: 86888 & claim your reward of 3 hours talk time to use from your phone now! ubscribe6GBP/ mnth inc 3hrs 16 stop?txtStop
+spam   Sunshine Quiz! Win a super Sony DVD recorder if you canname the capital of Australia? Text MQUIZ to 82277. B
+spam   URGENT! Your Mobile No 07808726822 was awarded a L2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9758 BOX95QU
+
+备注：
+1. 如果要查看数据，直接用记事本打开数据文件不容易看清楚格式，建议用UltraEdit或Sublime Text打开。
+2. 英文分词可以直接从空格处隔开，注意要去掉标点符号。
