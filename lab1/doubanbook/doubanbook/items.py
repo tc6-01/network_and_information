@@ -11,7 +11,6 @@ class DoubanbookItem(scrapy.Item):
     # name = scrapy.Field()
 #     书籍标题、主要信息、评分、总结等信
 # 息（注意需要爬取250本书籍）
-    bookTitle = scrapy.Field()
-    info = scrapy.Field()
-    score = scrapy.Field()
-    supply = scrapy.Field()
+    # 新增病例 
+    new = scrapy.Field()
+    date = scrapy.Field()
